@@ -1,0 +1,6 @@
+- name: Free
+  rate: 0
+- name: Express
+  rate: 2500
+- name: Overnight
+  rate: 4000

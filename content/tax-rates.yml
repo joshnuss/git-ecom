@@ -1,0 +1,21 @@
+- id: gst
+  name: GST
+  rate: 7
+  countries:
+    - CA
+- id: pst
+  name: PST
+  rate: 8.5
+  countries:
+    - CA
+  regions:
+    - QC
+- id: hst
+  name: HST
+  rate: 7.5
+  countries:
+    - CA
+  regions:
+    - NS
+    - ON
+    - AB
