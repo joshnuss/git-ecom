@@ -25,4 +25,8 @@ app.get('/tax-rates', (req, res) => {
   res.json(db.taxRates)
 })
 
+app.get('/buy/:id', (req, res) => {
+  res.redirect("/checkout")
+})
+
 app.listen(3003)
