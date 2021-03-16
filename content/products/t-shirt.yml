@@ -1,3 +1,9 @@
 id: 2
+permalink: t-shirt
 name: T-shirt
 price: 1000
+fulfillment: physical
+variants:
+  - S
+  - M
+  - L
