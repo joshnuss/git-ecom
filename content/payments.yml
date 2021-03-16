@@ -1,0 +1,14 @@
+- providers:
+  - paypal:
+    username: test
+    password: test
+
+  - stripe:
+    public_key: test
+    secret_key: test
+
+- wallets:
+  - apple
+  - google
+  - microsoft
+  - paypal
