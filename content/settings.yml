@@ -1,4 +1,4 @@
 currency: usd
 name: "JMart"
 units: imperial
-weight_unit: oz
+weight: oz
