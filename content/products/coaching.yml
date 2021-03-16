@@ -1,6 +1,7 @@
 id: 4
 permalink: coaching
 name: Monthly coaching
+type: subscription
 price: 1000
 interval: month
 fulfillment: service

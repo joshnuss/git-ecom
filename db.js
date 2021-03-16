@@ -12,11 +12,17 @@ loadProducts()
 loadTaxRates()
 loadShippingRates()
 
+const productDefaults = {
+  type: 'product',
+  fulfillment: 'physical',
+  price: 0
+}
+
 async function loadProducts() {
   const products = await loadYamlFiles("content/products/*.yml")
 
   products.forEach(product => {
-    db.products[String(product.id)] = {...product, buyURL: `/buy/${product.id}`}
+    db.products[String(product.id)] = {...productDefaults, ...product}
   })
 }
 
